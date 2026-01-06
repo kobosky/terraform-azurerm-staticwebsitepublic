@@ -1,8 +1,3 @@
-# Provider Block
-provider "azurerm" {
- features {}          
-}
-
 # Random String Resource
 resource "random_string" "myrandom" {
   length = 6
